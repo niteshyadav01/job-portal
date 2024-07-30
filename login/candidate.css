@@ -1,0 +1,257 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+}
+body 
+{
+    background-color: rgb(239, 233, 233); 
+}
+.header
+{
+display: flex;
+justify-content: center;
+align-items: center;
+ margin-bottom: -60px;
+}
+.header h2
+{
+    color: red;
+    font-size: 30px;
+     
+}
+.header i
+{
+    font-size: 30px;
+}
+ 
+.form-box
+{
+     
+    width: 600px;
+    height: 2050px;
+    background : white;
+    margin: 6% auto;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.5s ease;
+     
+}
+.form-box h2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 30px;
+    color: rgb(41, 39, 39);
+}
+.form-box h2 i
+{
+    margin-right: 10px;
+    font-size: 24px;
+}
+.button-box
+{
+    width: 300px;
+    margin: 35px auto;
+    position: relative;
+    border-radius: 30px;
+    
+}
+.toggle-button
+{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    font-size: 18px;
+    color: white;
+    margin-left: 6px;
+}
+#btn
+{
+    top: 0;
+    left: 0;
+    position:absolute;
+    width: 290px;
+    height: 100%;
+    background: rgb(234, 14, 14);
+    border-radius: 30px;
+    transition: .5s; 
+}
+form .user-details
+{
+    padding: 1%;
+    margin: auto;
+}
+form .user-details .inputs1
+{
+    margin: 10px 0 12px 0;
+    width: 700px;
+    
+}
+.user-details .inputs1 .details
+{
+    font-weight: 500;
+    margin: 5px;
+}
+.user-details .inputs1 input 
+{
+   outline: none;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+   padding-left: 15px;
+   border-bottom-width:3px ;
+   transition: all 0.3s ease;
+}
+.user-details .inputs1 input:focus
+/* .user-details .inputs1 input:valid */
+{
+    border-color:red
+}
+input
+{
+    padding: 10px;
+    margin: 4px;
+}
+.input-group
+{
+    position: absolute;
+    
+}
+ 
+h3 
+{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: red;
+}
+span
+{
+    font-size: 16px;
+}
+.verification
+{
+    padding:8px 60px;
+    border: 2px solid  red;
+    border-radius: 20px;
+    font-size: 16px;
+    background: none;
+    transition: all 0.5s ease;
+    margin-top: 20px;
+    margin-right: 120px;
+    
+}
+.verification:hover
+{
+    background-color: red;
+    color: white;
+
+}
+.btn1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+.btn1 a
+{
+    text-decoration: none;
+    list-style: none;
+    color: red;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+     
+    
+}
+.btn2 
+{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-right: 90px;
+    margin-top: 10px;
+}
+.btn2 a
+{
+    text-decoration: none;
+    list-style: none;
+    color: red;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    
+}    
+   
+.orclass
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 120px;
+    margin-top: 10px;
+     
+}
+ 
+.select1
+{
+    padding: 6px;
+}
+.hide
+{
+    display: none;
+}
+
+
+
+/* Responsiveness */
+@media screen and (max-width: 943px)
+{
+   .header h2
+   {
+    padding: 2%;
+   }
+}
+ 
+@media screen and (max-width: 462px)
+{
+    
+    .header h2
+    {
+        font-size: 30px;
+        padding: 10%;
+        margin-right: -500px;
+         
+         
+    }
+    .form-box
+{
+    margin-left: 50px;
+}
+}
+
+
+@media screen and (max-width: 700px)
+{
+    
+    .header h2
+    {
+        font-size: 30px;
+        padding: 10%;
+        margin-right: -500px;
+        width: 100%;
+    }
+    .form-box
+{
+    margin-left: 100px;
+  
+}
+}
+ 

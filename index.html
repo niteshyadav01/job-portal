@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevera Jobs</title>
+    <link rel="stylesheet" href="Style/landingPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Landing page -->
+    <div class="header" id="home">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <h2><i class="fa-brands fa-stumbleupon"></i>NueVera</h2>
+                </div>
+                <nav>
+                    <ul id="MenuItem">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#features">Jobs</a></li>
+                        <li><a href="login/login.html" class="logina">Login</a></li>
+                        <li><a href="login/candidate.html" class="signupa">Signup</a></li>
+                    </ul>
+                </nav>
+                <img src="Images/menu.png" alt="Menu-Icon" class="menu-bar" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Find the right <span>Freelance</span> Service<br>Right Away!</h1>
+                    <input type="text" placeholder="Search For Any Service..." class="searchbox"><i
+                        class="fa-solid fa-magnifying-glass"></i>
+                    <br>
+                    <div class="searches">
+                        <h3>Popular:</h3>
+                        <a href="#" class="searches1">Website Design</a>
+                        <a href="#" class="searches1">Wordpress</a>
+                        <a href="#" class="searches1">Logo Design</a>
+                        <a href="#" class="searches1">AI Service</a>
+                    </div>
+
+                    <a href="#" class="explore">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="./Images/2.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div class="container" id="services">
+        <h2 class="title">You need it,we've got it!!</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="Images/serv1.svg" alt="service1">
+                <h3>Graphic & Design</h3>
+            </div>
+            <div class="col-4">
+                <img src="Images/serv2.svg" alt="service2">
+                <h3>Digital Marketing</h3>
+            </div>
+            <div class="col-4">
+                <img src="Images/serv3.svg" alt="service3">
+                <h3>Writing & Translation</h3>
+            </div>
+            <div class="col-4">
+                <img src="Images/serv4.svg" alt="service4">
+                <h3>Video & Animation</h3>
+            </div>
+            <div class="col-4">
+                <img src="Images/serv5.svg" alt="service5">
+                <h3>Music & Audio</h3>
+            </div>
+            <div class="col-4">
+                <img src="Images/serv6.svg" alt="service6">
+                <h3>Programming & Tech</h3>
+            </div>
+            <div class="col-4">
+                <img src="Images/serv7.svg" alt="service7">
+                <h3>Business</h3>
+            </div>
+            <div class="col-4">
+                <img src="Images/serv8.svg" alt="service8">
+                <h3>Photography</h3>
+            </div>
+            <div class="col-4">
+                <img src="Images/serv9.svg" alt="service9">
+                <h3>Data</h3>
+            </div>
+            <div class="col-4">
+                <img src="Images/serv10.svg" alt="service10">
+                <h3>Lifestyle</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div class="offer" id="about">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="Images/1.png" alt="offer">
+                </div>
+                <div class="col-2">
+                    <h1>The best part?Everything!!</h1>
+                    <div class="about1">
+                        <h3><i class="fa-solid fa-check"></i>Stick to your budget</h3>
+                        <h5>Find the right service for every price point. No hourly rates, just project-based pricing.
+                        </h5>
+                    </div>
+                    <div class="about1">
+                        <h3><i class="fa-solid fa-check"></i>Get quality work done quickly</h3>
+                        <h5>Hand your project over to a talented freelancer in minutes, get long-lasting results.</h5>
+                    </div>
+                    <div class="about1">
+                        <h3><i class="fa-solid fa-check"></i>Pay when you're happy</h3>
+                        <h5>Upfront quotes mean no surprises. Payments only get released when you approve.</h5>
+                    </div>
+                    <div class="about1">
+                        <h3><i class="fa-solid fa-check"></i>Count on 24/7 support</h3>
+                        <h5>Our round-the-clock support team is available to help anytime, anywhere.</h5>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <!-- Popular Services -->
+    <div class="container" id="services">
+        <h2 class="title">Popular Services</h2>
+        <div id="popularServices">
+            <div class="container">
+                <div class="work-list">
+
+                    <div class="work-1" data-aos="fade-up">
+                        <img src="Images/pop1.png" alt="work-1">
+                        <div class="layer">
+                            <p>Add Talent to AI</p>
+                            <h3>AI Artists</h3>
+                        </div>
+                    </div>
+
+                    <div class="work-1" data-aos="fade-up">
+                        <img src="Images/pop2.png" alt="work-1">
+                        <div class="layer">
+                            <p>Showcase Your Story</p>
+                            <h3>Book Covers</h3>
+                        </div>
+                    </div>
+
+                    <div class="work-1" data-aos="fade-up">
+                        <img src="Images/pop3.png" alt="work-1">
+                        <div class="layer">
+                            <p>Share Your Message</p>
+                            <h3>Voice Over</h3>
+                        </div>
+                    </div>
+                    <div class="work-1" data-aos="fade-up">
+                        <img src="Images/pop4.png" alt="work-1">
+                        <div class="layer">
+                            <p>Reach More Customers</p>
+                            <h3>Social Media</h3>
+                        </div>
+                    </div>
+                    <div class="work-1" data-aos="fade-up">
+                        <img src="Images/pop5.png" alt="work-1">
+                        <div class="layer">
+                            <p>Engage your audience</p>
+                            <h3>Video Explainer</h3>
+                        </div>
+                    </div>
+                    <div class="work-1" data-aos="fade-up">
+                        <img src="Images/pop6.png" alt="work-1">
+                        <div class="layer">
+                            <p>Colour your dreams</p>
+                            <h3>Illustrations</h3>
+                        </div>
+                    </div>
+
+                    <div class="work-1" data-aos="fade-up">
+                        <img src="Images/pop7.png" alt="work-1">
+                        <div class="layer">
+                            <p>Unlock growth online</p>
+                            <h3>SEO</h3>
+                        </div>
+                    </div>
+
+                    <div class="work-1" data-aos="fade-up">
+                        <img src="Images/pop8.png" alt="work-1">
+                        <div class="layer">
+                            <p>Go global</p>
+                            <h3>Translation</h3>
+                        </div>
+                    </div>
+
+                    <div class="work-1" data-aos="fade-up">
+                        <img src="Images/pop9.png" alt="work-1">
+                        <div class="layer">
+                            <p>Learn your business</p>
+                            <h3>Data Entry</h3>
+                        </div>
+                    </div>
+                    <div class="work-1" data-aos="fade-up">
+                        <img src="Images/pop10.png" alt="work-1">
+                        <div class="layer">
+                            <p>Customize Your Site</p>
+                            <h3>WordPress</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- brands -->
+    <div class="offer" id="about">
+        <div class="small-container">
+            <h2 class="title">Trusted By:</h2>
+            <div class="brands">
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-5">
+                            <img src="Images/logo-godrej.png" alt="Godrej">
+                        </div>
+
+                        <div class="col-5">
+                            <img src="Images/logo-oppo.png" alt="Oppo">
+                        </div>
+
+                        <div class="col-5">
+                            <img src="Images/logo-coca-cola.png" alt="coca-cola">
+                        </div>
+
+                        <div class="col-5">
+                            <img src="Images/logo-paypal.png" alt="paypal">
+                        </div>
+
+                        <div class="col-5">
+                            <img src="Images/logo-philips.png" alt="philips">
+                        </div>
+
+                        <div class="col-5">
+                            <img src="Images/logo-godrej.png" alt="Godrej">
+                        </div>
+
+                        <div class="col-5">
+                            <img src="Images/logo-oppo.png" alt="Oppo">
+                        </div>
+
+                        <div class="col-5">
+                            <img src="Images/logo-coca-cola.png" alt="coca-cola">
+                        </div>
+
+                        <div class="col-5">
+                            <img src="Images/logo-paypal.png" alt="paypal">
+                        </div>
+
+                        <div class="col-5">
+                            <img src="Images/logo-philips.png" alt="philips">
+                        </div>
+                        <div class="col-5">
+                            <img src="Images/logo-godrej.png" alt="Godrej">
+                        </div>
+
+                        <div class="col-5">
+                            <img src="Images/logo-oppo.png" alt="Oppo">
+                        </div>
+
+                        <div class="col-5">
+                            <img src="Images/logo-coca-cola.png" alt="coca-cola">
+                        </div>
+
+                        <div class="col-5">
+                            <img src="Images/logo-paypal.png" alt="paypal">
+                        </div>
+
+                        <div class="col-5">
+                            <img src="Images/logo-philips.png" alt="philips">
+                        </div>
+
+                        <div class="col-5">
+                            <img src="Images/logo-godrej.png" alt="Godrej">
+                        </div>
+
+                        <div class="col-5">
+                            <img src="Images/logo-oppo.png" alt="Oppo">
+                        </div>
+
+                        <div class="col-5">
+                            <img src="Images/logo-coca-cola.png" alt="coca-cola">
+                        </div>
+
+                        <div class="col-5">
+                            <img src="Images/logo-paypal.png" alt="paypal">
+                        </div>
+
+                        <div class="col-5">
+                            <img src="Images/logo-philips.png" alt="philips">
+                        </div>
+                        <div class="col-5">
+                            <img src="Images/logo-paypal.png" alt="paypal">
+                        </div>
+
+                        <div class="col-5">
+                            <img src="Images/logo-philips.png" alt="philips">
+                        </div>
+
+                        <h2 class="brandText">100+ Companies & More</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jobs -->
+    <h2 class="title">Featured Jobs</h2>
+    <div class="card">
+        <div class="image">
+            <img src="Images/job1.jpg">
+        </div>
+        <div class="des">
+            <h1>Web Development</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, iste?</p>
+            <button>Read More...</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <img src="Images/job2.jpg">
+        </div>
+        <div class="des">
+            <h1>Online Tutoring</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, iste?</p>
+            <button>Read More...</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <img src="Images/job3.jpg">
+        </div>
+        <div class="des">
+            <h1>Modeling & Acting</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, iste?</p>
+            <button>Read More...</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <img src="Images/job4.jpg">
+        </div>
+        <div class="des">
+            <h1>Software Development</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, iste?</p>
+            <button>Read More...</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <img src="Images/job5.jpg">
+        </div>
+        <div class="des">
+            <h1>Mobile App Development</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, iste?</p>
+            <button>Read More...</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <img src="Images/job6.jpg">
+        </div>
+        <div class="des">
+            <h1>Game Development</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, iste?</p>
+            <button>Read More...</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <img src="Images/job7.jpg">
+        </div>
+        <div class="des">
+            <h1>Music Videos</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, iste?</p>
+            <button>Read More...</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <img src="Images/job8.jpg">
+        </div>
+        <div class="des">
+            <h1>Video Editing</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, iste?</p>
+            <button>Read More...</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <img src="Images/job9.jpg">
+        </div>
+        <div class="des">
+            <h1>Data Analyst</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, iste?</p>
+            <button>Read More...</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <img src="Images/job10.jpg">
+        </div>
+        <div class="des">
+            <h1>WordPress</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, iste?</p>
+            <button>Read More...</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <img src="Images/job11.jpg">
+        </div>
+        <div class="des">
+            <h1>Portrait Photographers</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, iste?</p>
+            <button>Read More...</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <img src="Images/job12.jpg">
+        </div>
+        <div class="des">
+            <h1>Business Planners</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, iste?</p>
+            <button>Read More...</button>
+        </div>
+    </div>
+
+    <div class="button1">
+        <a href="#" class="viewall"> View All &#8594;</a>
+    </div>
+    <!--cards -->
+    </div>
+
+    <!-- contact-us section -->
+    <h2 class="title">Help & Support</h2>
+    <div id="contact1" data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-titlee">Contact Us</h1>
+                    <p><i class="fas fa-paper-plane"></i>nueverajobs@gmail.com </p>
+                    <p> <i class="fas fa-phone-square-alt"></i>8686868686 / 7272727272 </i></p>
+                    <div class="social-items">
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <a href="#" class="btn-1">Explore All</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <input type="text" name="subject" placeholder="Your Subject" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn-1">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    
+
+    <!-- footer -->
+    <div class="footer" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Andorid and ios mobile phone</p>
+                    <div class="applogo">
+                        <img src="Images/play-store.png" alt="">
+                        <img src="Images/app-store.png" alt="">
+                    </div>
+                </div>
+
+                <div class="footer-col-2">
+                    <h2><i class="fa-brands fa-stumbleupon"></i>NueVera</h2>
+                    <p> Our Purpose Is To Sustainably Make The Pleasure And Benefits The Corporate World!!!
+                    </p>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Usefull Links</h3>
+                    <ul>
+                        <li>Help & Support</li>
+                        <li>Careers</li>
+                        <li>Privacy Policy</li>
+                        <li>Joining Guides </li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>More Links</h3>
+                    <ul>
+                        <li>Recent Jobs</li>
+                        <li></i>Resume Builder</li>
+                        <li> </i>About Us</li>
+                        <li> Blogs</li>
+                    </ul>
+                </div>
+
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 - Nitesh Yadav</p>
+        </div>
+    </div>
+
+
+    <!-- js for toggle meun -->
+    <script>
+        var MenuItem = document.getElementById("MenuItem");
+        MenuItem.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItem.style.maxHeight == "0px") {
+                MenuItem.style.maxHeight = "400px"
+            }
+            else {
+                MenuItem.style.maxHeight = "0px"
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
